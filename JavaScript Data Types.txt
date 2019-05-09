@@ -1,0 +1,89 @@
+Javascript Data Types:
+
+1. String - Text type (===) string
+2. Number - Mathematical Operations (==) number equal
+3. Boolean - True or False / Ternary Operator (!-not)
+4. Undefined
+5. Null
+6. Symbol (ES6)
+7. Object
+
+
+Code:
+const = Not overwrite / Immutable / Unable to be changed.
+let = Same as const / usable for loops 
+from = Collect data from user
+alert = just alert 
+prompt = alert and get data to user
+
+!- not
+&&- and
+||- or
+
+
+if (condition) {
+	argument;
+}	
+
+else if (condition){
+	argument;
+}
+
+else (condition){
+	argument;
+}
+
+
+AND Condition
+if (username === "kimpoy25" && password === "kimpz"){
+	alert("Login Successful")
+}
+else {
+	alert("Login Failed")
+}
+
+OR 
+if (username === "kimpoy25" || password === "kipmz1"){
+	alert("Login Successful")
+}
+else {
+	alert("Login Failed")
+}
+
+KEYLESS CAR
+var age = prompt("Enter your age?");
+
+if (age < 18){
+	alert("Sorry you are too young to drive this car. Powering off");
+}
+else if  (age == 18){
+	alert("Congratulations on yours first year of driving. Enjoy the ride!");
+}
+
+else if (age > 18) {
+	alert("Powering On. Enjoy the ride!");
+
+}
+
+
+TERNARY OPERATOR
+
+condition (?) exp1 (:) exp2 (;)
+
+	var age = prompt("What is your age?")
+
+	var answer = age < 18 ? alert("You are too young to drive") : alert("Powering On!") 
+
+
+Function
+-all function have return
+
+Array
+[]
+
+
+
+
+
+
+

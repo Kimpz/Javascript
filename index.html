@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+</head>
+<body>
+
+
+
+
+<!-- 
+
+<script>	
+	var age = prompt("What is your age");
+
+	function checkDriverAge(){
+		if (age < 18){
+			return "You are too young to drive"
+		}
+		else if (age == 18){
+			return "Congratulations on your first year of driving"
+		}
+		else
+			return "Powering on"
+		}
+
+</script>
+ -->
+
+
+	<!--function showEverywhere(text){
+	// 	function textDecorate(a){
+	// 		return "<<<" + a + ">>>"
+	// 	};
+
+
+	// text = textDecorate(text);
+
+	// console.log(text);
+	// alert(text);	
+	// }
+
+	// showEverywhere("Hello World"); -->
+
+<script>
+	var player = {
+		name: "Kimpoy",
+		isMarried: true,
+		life: 100,
+		job: "Assassin",
+		skills: ["bash","provoke","endure"],
+		energy: 50,
+		weapon: ["katana","blade"],
+			addweapon: function(newWeapon){
+			this.weapon.push(newWeapon);
+		},
+			addEnergy: function(e){
+			this.energy = this.energy + e;
+		}
+
+
+	};
+	player.addweapon("axe");
+	player.addEnergy(25);
+	
+</script>
+</body>
+</html>
